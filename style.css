@@ -214,3 +214,100 @@ section {
     font-size: 1.3rem;
     margin: 1rem 0 3rem;
 }
+
+.projets {
+   background: var(--deuxieme-bg-color);
+
+}
+
+.projets h2 {
+    margin-bottom: 4rem;
+}
+
+.projets-contrainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+
+}
+
+.projets-contrainer .projets-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow:  0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+
+
+}
+
+.projets-box img {
+    width: 100%;
+}
+
+.projets-box .projets-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.projets-layer h4 {
+    font-size: 3rem;
+}
+.projets-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+.projets-layer a {
+    font-size: 2rem;
+}
+
+.contact h2 {
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box  input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--deuxieme-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box  input {
+    width: 49%;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--deuxieme-bg-color);
+    color: var(--text-color);
+    margin-top: 40px;
+    font-size: 14px;
+}
